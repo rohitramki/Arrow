@@ -1,0 +1,258 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #216337;
+    background-repeat: no-repeat
+}
+
+.card0 {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px;
+    background-color: #00243f;
+}
+
+.card2 {
+    margin: 0px 40px;
+    background-color: #00243f;
+}
+input[name="firstName"]
+{
+    background-color: #a3acb1;
+    color: black;
+    border-color: black;
+}
+input[name="lastName"]
+{
+    background-color: #a3acb1;
+    color: black;
+    border-color: black;
+}
+input[name="birthday"]
+{
+    background-color: #a3acb1;
+    color: black;
+    border-color: black;
+}
+input[name="email"]
+{
+    background-color: #a3acb1;
+    color: black;
+    border-color: black;
+}
+input[name="password"]
+{
+    background-color: #a3acb1;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border-color: black;
+    /*border-width: medium;*/
+}
+.logo {
+    width: 10rem;
+    height: 2.5rem;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.fn
+{
+    color: #57E257;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10%;
+}
+.ln
+{
+    color: #57E257;
+    font-family: 'Montserrat', sans-serif;
+}
+.bday
+{
+    color: #57E257;
+    font-family: 'Montserrat', sans-serif;
+}
+.emailAddress
+{
+    color: #57E257;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 17%;
+}
+.emailAddressSignUp
+{
+    margin-top: 0;
+}
+.firstNameMargin
+{
+    margin-bottom: 10px;
+}
+.mb-4-SignUp
+{
+    margin-bottom: 10px !important;
+}
+.passwordMargin
+{
+    margin-bottom: 10px !important;
+}
+.passWord
+{
+    color: #57E257;
+    font-family: 'Montserrat', sans-serif;
+}
+.passWordRetype
+{
+    /*margin-top: 10px;*/
+    color: #57E257;
+    font-family: 'Montserrat', sans-serif;
+}
+.forgotPassword
+{
+    color: #57E257;
+    font-family: 'Montserrat', sans-serif;
+}
+.registerLink
+{
+    color: white;
+}
+.registerLink:hover
+{
+    color: #c7d3d9;
+}
+.image
+{
+    width: 281px;
+    height: 281px;
+}
+.imageSignUp {
+    width: 238px;
+    height: 453px;
+    margin-top: 20px;
+}
+
+
+.border-line {
+    border-right: 1px solid black;
+}
+
+.line {
+    height: 1px;
+    width: 45%;
+    background-color: #E0E0E0;
+    margin-top: 10px
+}
+
+.text-sm {
+    font-size: 14px !important
+
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+    font-weight: 350;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+:-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300;
+}
+
+::-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300;
+}
+
+input,
+textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #304FFE;
+    outline-width: 0
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+a {
+    color: inherit;
+    cursor: pointer
+}
+
+.btn-yellow
+{
+    background-color: #ffe57d;
+    width: 150px;
+    color: black;
+    /*border-radius: 2px*/
+    border-radius: 6px;
+    font-weight: 550;
+    border-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.btn-yellow:hover {
+    background-color: #ffdb40;
+    cursor: pointer
+}
+
+.bg-blue {
+    color: #d5a069;
+    background-color: #1A237E;
+    font-family: 'Montserrat', sans-serif;
+}
+.footerLinks:hover
+{
+    color: #c7d3d9;
+}
+.loginButton
+{
+    margin-top: 10px;
+}
+@media screen and (max-width: 991px) {
+    .fn
+    {
+        margin-top: 0%;
+    }
+    .logo {
+        margin-left: 10px;
+        pointer-events: none;
+    }
+    .image {
+        width: 381px;
+        height: 381px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .border-line {
+        border-right: none
+    }
+    .emailAddress
+    {
+        margin-top: 0;
+    }
+    .card2 {
+        border-top: 1px solid #EEEEEE !important;
+        margin: 0px 15px
+    }
+}
